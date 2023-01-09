@@ -1,0 +1,369 @@
+body{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.top_list{
+    display: flex;
+    background-color: #000000CC;
+    padding: 13px 10%;
+}
+.top_list li a{
+    color: #f5f5f7cc;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
+.top_list li a:hover{
+    color: white;
+}
+
+.bottom_navbar{
+    background-color: #E34140;
+    padding: 1px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+.header_container{
+    background-color: rgba(200, 227, 253 , 0.4);
+    padding-bottom: 1%;
+}
+.header_container .img{
+    width: 70px;
+    padding: 20px 0%;
+    padding-left: 45%;
+}
+.header_container h1{
+    font-size: 55px;
+    text-align: center;
+    color: black;
+}
+.header_container a{
+    color: blue;
+    font-size: 23px;
+    text-decoration: none;
+    padding-left: 45%;
+}
+
+.row{
+    display: flex;
+    padding-left: 11%;
+    flex-wrap: wrap;
+}
+.row img{
+    width: 330px;
+    height: 280px;
+    padding: 0;
+}
+
+
+.main_block h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.main_block p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.a{
+    margin-left: 42%;
+}
+.a a{
+    color: #06c;
+    font-size: 20px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.main_block img{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+
+h1{
+    margin-bottom: 0;
+}
+
+.main_block img{
+    width: 600px;
+    height: 90vh;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+
+.main_container{
+    background-color: #32283b;
+    padding: 20px 0;
+}
+.main_container h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.main_container p{
+    color: #fec2eb;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main_container img{
+    width: 800px;
+    height: 300px;
+    margin-left: 300px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container div{
+    margin: 10px 40px;
+}
+.card{
+    background: url(https://www.apple.com/v/home/ai/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large.jpg) center / cover;
+    width: 43%;
+    height: 85vh;
+}
+.card h1 , h3 , p{
+    text-align: center;
+}
+.card h1{
+    font-size: 40px;
+}
+.card h3{
+    color: red;
+}
+.card p{
+    font-size: 20px;
+}
+.card .a a{
+    margin-left: 100px;
+}
+
+
+.card2{
+    background: url(https://www.apple.com/v/home/ai/images/promos/airpods-silhouette/promo_airpods_silhouette__d2srnok0r6mq_large.jpg) center / cover;
+    width: 43%;
+    height: 85vh;
+    object-fit: cover;
+}
+.card2 h1{
+    padding-top: 320px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.card2 p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.card2 .a a{
+    margin-left: 100px;
+    color: white;
+    text-align: center;
+}
+
+
+.card3{
+    background: url(https://www.apple.com/v/home/ai/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large.jpg) center / cover;
+    width: 48%;
+    height: 85vh;
+    object-fit: cover;
+}
+
+.card3 h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.card3 .a a{
+    margin-left: 130px;
+}
+
+.card4{
+    background: url(https://www.apple.com/v/home/ai/images/promos/arcade-melee-mania/tile_arcade__ewkth5cd0wia_large.jpg) center / cover;
+    width: 40%;
+    height: 85vh;
+    object-fit: cover;
+}
+.card4 h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.card4 a{
+    margin-left: 80px;
+}
+
+
+
+
+@media (max-width: 1440px){
+    .top_list{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px){
+    .bag{
+        margin-right: -100px;
+    }.top_list{
+        padding-right: 180px;
+    }
+    .none_img{
+        display: none;
+    }
+    .row img{
+        margin-left: 25%;
+    }
+    .header_container .img{
+        padding-left: 450px;
+    }
+    .main_block img{
+        height: 30vh;
+        width: 450px;
+    }
+    .main_container img{
+        width: 500px;
+        height: 200px;
+    }.card{
+        width: 35%;
+        height: 40vh;
+    }.card2{
+        width: 45%;
+        height: 40vh;
+    }.card3{
+        height: 40vh;
+    }.card4{
+        height: 40vh;
+    }
+}
+.bars{
+    display: none;
+}
+
+@media (max-width:768px){
+    .bars{
+        display: block;
+    }
+    .none{
+        display: none;
+    }
+    .bars{
+        margin-right: auto;
+        margin: -9px -50px;
+    }
+    .bars_main i{
+        font-size:15px;
+    }
+    .apple i{
+        font-size: 20px;
+    }
+    .apple{
+        margin: auto;
+        margin-right: 20px;
+    }
+    .bag_main{
+        margin-left: auto;
+        margin-right: -27%;
+    }
+    .bottom_navbar{
+        padding: 1px 20%;
+    }
+    .row img{
+        margin-left: 18%;
+    }
+    .header_container .img{
+        padding-left: 340px;
+    }
+    .main_block img{
+        width: 330px;
+    }
+    .main_container img{
+        width: 300px;
+        height: 150px;
+        margin-left: 250px;
+    }.card , .card2 , .card3 , .card4{
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 425px){
+    .bars{
+        display: block;
+        margin: 1px -25px;
+        font-size: 50px;
+    }
+    .bag_main i{
+        margin-left: 50px;
+    }
+    .apple{
+        margin-right: -70px;
+    }
+    .row img{
+        margin-top: 20px;
+        margin-left: 3%;
+    }
+    .main_block img{
+        width: 150px;
+        height: 20vh;
+    }
+    .header_container .img{
+        padding-left: 170px;
+    }
+    .main_container img{
+        display: none;
+    }
+    .a a{
+        margin-left: -20px;
+    }
+    .card , .card2  , .card3 , .card4{
+        height: 25vh;
+    }
+}
+
+@media (max-width: 375px){
+    .bag_main i{
+        margin-left: 100px;
+        margin-right: -300px;
+    }
+    .apple i{
+        margin-left: 45px;
+    }
+    .row img{
+        margin-left: -3%;
+    }
+    .main_block img{
+        width: 150px;
+        height: 15vh;
+    }
+}
+
+@media (max-width: 320px){
+    
+}
